@@ -1,0 +1,51 @@
+.video-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+ }
+ .video_data{
+   display: flex;
+   margin-top: 80px;
+   margin-left: 210px;
+ }
+ button, .course__description h3, .course__description-list h4{
+  margin-left: 210px;
+ }
+ .more_video_section{
+  display: flex;
+ }
+ .video_content{
+  margin-left: 25px;
+  margin-bottom: 10px;
+ 
+
+ }
+ .main_video_title {
+   font-size: 18px;
+   margin-bottom: 15px;
+   border-radius: 5px;
+   width: 310px;
+   margin-left: 20px;
+   padding: 20px;
+   background-color: #f0f0f0;
+   text-align: center;
+   text-decoration: none;
+   color: #333;
+   display: block;
+   transition: background-color 0.2s, color 0.2s;
+ }
+ 
+ .main_video_title:hover {
+   background-color: #333;
+   color: #fff;
+   cursor: pointer;
+ }
+
+ video {
+   display: block;
+   margin-top: 10px;
+   max-width: 100%;
+   height: auto;
+ }
+ 
